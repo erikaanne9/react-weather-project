@@ -1,38 +1,102 @@
-.App {
+.weather-app {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  background-color: #fff;
+}
+
+.search {
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.search-input {
+  background-color: rgb(245, 228, 228, 0.3) !important;
+  border: none !important;
+  padding: 15px 20px !important;
+  border-radius: 6px !important;
+}
+
+.btn-primary {
+  background-color: #df493b !important;
+  border-color: #df493b !important;
+  padding: 15px 20px !important;
+  border-radius: 6px !important;
+}
+
+.weather-heading {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.date-time {
+  text-align: center;
+  margin: 0;
+}
+
+.current-temp img {
+  position: relative;
+  top: -30px;
+}
+
+.current-temp {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.current-temp .big-temp {
+  font-size: 6rem;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.current-temp .unit {
+  font-size: 20px;
+  position: relative;
+  top: -54px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.current-temp .active {
+  color: black;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.current-temp .active:hover {
+  cursor: default;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather-info {
+  opacity: 0.7;
+}
+
+.description:first-letter {
+  text-transform: capitalize;
+}
+
+.future-conditions {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.weather-forecast {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.weather-forecast-day,
+.weather-forecast-min {
+  opacity: 0.6;
+}
+
+.coder-stamp {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: smaller;
 }
