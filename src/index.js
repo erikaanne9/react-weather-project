@@ -9,7 +9,13 @@ root.render(
   <React.StrictMode>
     <App />
     <p className="text-center">
-      <a href="">Open-source code </a> by Erika Jones
+      <a
+        href="https://github.com/erikaanne9/react-weather-project"
+        target="_blank"
+      >
+        Open-source code{" "}
+      </a>{" "}
+      by Erika Jones
     </p>
   </React.StrictMode>
 );
