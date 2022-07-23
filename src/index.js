@@ -12,6 +12,7 @@ root.render(
       <a
         href="https://github.com/erikaanne9/react-weather-project"
         target="_blank"
+        rel="noreferrer"
       >
         Open-source code{" "}
       </a>{" "}
